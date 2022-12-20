@@ -1,7 +1,7 @@
 var d1=Math.random();
 var s=Math.floor(d1*6+1);
 var d="dice"+s+".png";
-$(".img1")[0].setAttribute("src",d);
+$("img")[0].setAttribute("src",d);
 var d2=Math.random();
 var s1=Math.floor(d2*6+1);
 var d3="dice"+s1+".png";
